@@ -22,7 +22,7 @@
         background-color: #ffffff;
         padding: 10px;
         border-radius: 3px;
-        border:1px solid #ffffff;
+        border:1px solid #117CA6;
         font-family: Roboto;
         cursor: pointer;
       }
@@ -83,6 +83,9 @@
     </style>
   </head>
   <body>   
+    <h1>Simple Search Form Using HTML, CSS and jQuery by Codematra</h1>
+    <p>This is a DEMO page of search form.</p>
+    <hr />
         
     <!--Search Form Trigger-->
     <span class="search-toggle">Show/Hide</span>
@@ -104,7 +107,7 @@
     <script>
       jQuery('document').ready(function(){
         jQuery('.search-toggle').click(function(){
-          jQuery('.search-codematra').slideToggle();
+          jQuery('.search-codematra').fadeToggle();
         });
       });      
     </script>
